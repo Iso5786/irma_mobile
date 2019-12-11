@@ -1,0 +1,6 @@
+cp ../irmago/irmaclient/* vendor/github.com/privacybydesign/irmago/irmaclient/
+cp ../irmago/messages.go vendor/github.com/privacybydesign/irmago/
+cp ../irmago/attributes.go vendor/github.com/privacybydesign/irmago/
+cp ../irmago/vc.go vendor/github.com/privacybydesign/irmago/
+
+yarn run android
