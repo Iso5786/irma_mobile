@@ -82,7 +82,7 @@ export default class QRScannerContainer extends Component {
       // pass
     }
 
-    if (typeof sessionPointer !== 'object' || typeof sessionPointer.irmaqr !== 'string') {
+    if (typeof sessionPointer !== 'object') {
       Toast.show({
         text: t('.invalidQR'),
         position: 'bottom',
